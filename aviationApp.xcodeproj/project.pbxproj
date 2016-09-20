@@ -13,6 +13,11 @@
 		8DE35AC71D89AA2C000E37C2 /* aviationApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DE35AC51D89AA2C000E37C2 /* aviationApp.xcdatamodeld */; };
 		8DE35AC91D89AA2C000E37C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE35AC81D89AA2C000E37C2 /* Assets.xcassets */; };
 		8DE35ACC1D89AA2C000E37C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE35ACA1D89AA2C000E37C2 /* LaunchScreen.storyboard */; };
+		8DE35AD71D89AD64000E37C2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE35AD51D89AD64000E37C2 /* TableViewController.swift */; };
+		8DE35ADC1D89B7A7000E37C2 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE35ADB1D89B7A7000E37C2 /* DataTableViewCell.swift */; };
+		A116A8811D8C12C300E07CC3 /* sample.txt in Resources */ = {isa = PBXBuildFile; fileRef = A116A8801D8C12C300E07CC3 /* sample.txt */; };
+		A11BCE3C1D8FDE7200F986E2 /* StreamScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11BCE3B1D8FDE7200F986E2 /* StreamScanner.swift */; };
+		A15E368E1D8FC8C70034E2E5 /* task.csv in Resources */ = {isa = PBXBuildFile; fileRef = A15E368D1D8FC8C70034E2E5 /* task.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		8DE35AC81D89AA2C000E37C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DE35ACB1D89AA2C000E37C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DE35ACD1D89AA2C000E37C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE35AD51D89AD64000E37C2 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8DE35ADB1D89B7A7000E37C2 /* DataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		A116A8801D8C12C300E07CC3 /* sample.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample.txt; sourceTree = "<group>"; };
+		A11BCE3B1D8FDE7200F986E2 /* StreamScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamScanner.swift; sourceTree = "<group>"; };
+		A15E368D1D8FC8C70034E2E5 /* task.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = task.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,18 @@
 		8DE35ABD1D89AA2C000E37C2 /* aviationApp */ = {
 			isa = PBXGroup;
 			children = (
+				A15E368D1D8FC8C70034E2E5 /* task.csv */,
+				A116A8801D8C12C300E07CC3 /* sample.txt */,
 				8DE35ABE1D89AA2C000E37C2 /* AppDelegate.swift */,
 				8DE35AC01D89AA2C000E37C2 /* ViewController.swift */,
+				8DE35AD51D89AD64000E37C2 /* TableViewController.swift */,
 				8DE35AC21D89AA2C000E37C2 /* Main.storyboard */,
 				8DE35AC81D89AA2C000E37C2 /* Assets.xcassets */,
 				8DE35ACA1D89AA2C000E37C2 /* LaunchScreen.storyboard */,
 				8DE35ACD1D89AA2C000E37C2 /* Info.plist */,
 				8DE35AC51D89AA2C000E37C2 /* aviationApp.xcdatamodeld */,
+				8DE35ADB1D89B7A7000E37C2 /* DataTableViewCell.swift */,
+				A11BCE3B1D8FDE7200F986E2 /* StreamScanner.swift */,
 			);
 			path = aviationApp;
 			sourceTree = "<group>";
@@ -128,7 +143,9 @@
 			files = (
 				8DE35ACC1D89AA2C000E37C2 /* LaunchScreen.storyboard in Resources */,
 				8DE35AC91D89AA2C000E37C2 /* Assets.xcassets in Resources */,
+				A15E368E1D8FC8C70034E2E5 /* task.csv in Resources */,
 				8DE35AC41D89AA2C000E37C2 /* Main.storyboard in Resources */,
+				A116A8811D8C12C300E07CC3 /* sample.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +158,10 @@
 			files = (
 				8DE35AC11D89AA2C000E37C2 /* ViewController.swift in Sources */,
 				8DE35ABF1D89AA2C000E37C2 /* AppDelegate.swift in Sources */,
+				8DE35ADC1D89B7A7000E37C2 /* DataTableViewCell.swift in Sources */,
 				8DE35AC71D89AA2C000E37C2 /* aviationApp.xcdatamodeld in Sources */,
+				A11BCE3C1D8FDE7200F986E2 /* StreamScanner.swift in Sources */,
+				8DE35AD71D89AD64000E37C2 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +272,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = aviationApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anki.aviationApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -263,7 +285,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = aviationApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anki.aviationApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,6 +313,7 @@
 				8DE35AD21D89AA2C000E37C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
